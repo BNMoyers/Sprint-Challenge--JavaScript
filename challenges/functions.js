@@ -6,6 +6,10 @@
   * The last parameter accepts a callback 
   * In the body of the function return the callback with the two parameters that you created
 */
+const consume = function(para1,para2,cb){
+    return cb;
+};
+
 
 
 /* Step 2: Create several functions to callback with consume();
