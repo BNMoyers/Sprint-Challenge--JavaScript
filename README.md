@@ -52,31 +52,12 @@ Edit this document to include your answers after each question. Make sure to lea
 5. Why do we need super() in an extended class?
         super() takes the place of the 'Object.create(this, Class) syntax necessary when using prototypes. 
 
-## Project Set up
-
-Follow these steps to set up and work on your project:
-
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
-
-Follow these steps for completing your project:
-
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by  merging the branch back into master.
+#
 
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
-
-**Pro tip for this challenge: If something seems like it isn't working locally, copy and paste your code up to codepen and take another look at the console.**
 
 ## Task 1: Objects and Arrays
 Test your knowledge of objects and arrays. 
