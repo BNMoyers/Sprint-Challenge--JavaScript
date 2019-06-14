@@ -12,7 +12,9 @@ const dino1 = {
   diet: 'carnivorous',
   weight: '7000kg',
   length: '12m',
-  period:  'Late Cretaceous'
+  period:  'Late Cretaceous',
+
+  
 };
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
 const dino2 = {
@@ -46,7 +48,10 @@ console.log(dino1.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+dino1.roar = function(){
+  return "RAWERSRARARWERSARARARRRR!"
+}
+console.log(dino1.roar());
 
 
 // ==== Arrays ====
