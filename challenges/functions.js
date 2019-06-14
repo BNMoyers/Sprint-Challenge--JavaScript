@@ -6,12 +6,20 @@
   * The last parameter accepts a callback 
   * In the body of the function return the callback with the two parameters that you created
 */
-const consume = function(para1,para2,cb){
-    return cb;
-};
+const consume = function(a, b, cb){
+  console.log(cb(a, b));
+}
+let add = function(a, b) {
+  return a + b;
+}
 
+let multiply = function(a, b) {
+  return a * b;
+}
 
-
+let greeting = function(a, b) {
+  return `Hello, ${a} ${b}, nice to meet you!`
+}
 /* Step 2: Create several functions to callback with consume();
   * Create a function named add that returns the sum of two numbers
   * Create a function named multiply that returns the product of two numbers 
@@ -20,9 +28,9 @@ const consume = function(para1,para2,cb){
 
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
-// consume(2,2,add); // 4
-// consume(10,16,multiply); // 160
-// consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
+consume(2,2,add); // 4
+consume(10,16,multiply); // 160
+consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 
 // ==== Closures ==== 
